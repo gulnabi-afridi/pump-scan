@@ -1,7 +1,12 @@
 import React from 'react';
+import HeroSection from '../components/Home/HeroSection';
 
-const Home:React.FC = () => {
-  return <div className='font-gesistSemibold text-[50px]'>Monitoring</div>;
+const Home: React.FC = () => {
+  return (
+    <div className=''>
+      <HeroSection />
+    </div>
+  );
 };
 
 export default Home;
