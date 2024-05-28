@@ -25,6 +25,7 @@ export default {
       colors: {
         black: {
           1: '#000000',
+          2: '#435E78',
         },
 
         green: {
