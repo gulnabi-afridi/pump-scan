@@ -4,7 +4,7 @@ import RoadMapCard from './Cards/RoadMapCard';
 
 const Roadmap: React.FC = () => {
   return (
-    <div className='w-full mt-28 pt-20'>
+    <div id='#roadmap' className='w-full relative py-24 bg-[#060B12]'>
       <ComponentWrapper>
         <div className='w-full flex flex-col justify-center items-center'>
           <p className='text-[14px] font-gesistMedium text-green-1'>
@@ -52,6 +52,7 @@ const Roadmap: React.FC = () => {
           </div>
         </div>
       </ComponentWrapper>
+      <div className="w-full max-w-[800px] absolute left-[0%] lg:left-[28%] translate-x-[0%] lg:translate-x-[-25%] bg-cover bg-no-repeat top-0 bg-[url('/assets/roadMapShad.png')] h-[100px] lg:h-[130px]"></div>
     </div>
   );
 };

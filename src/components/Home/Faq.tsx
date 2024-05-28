@@ -3,7 +3,7 @@ import ComponentWrapper from '../common/ComponentWrapper';
 
 const Faq: React.FC = () => {
   return (
-    <div className='w-full relative py-28 bg-[#060B12]'>
+    <div id='#faqs' className='w-full relative pt-12 pb-28 bg-[#060B12]'>
       <ComponentWrapper>
         <div className='flex flex-col gap-4'>
           <p className='text-[14px] font-gesistMedium text-green-1'>*/ FAQs</p>

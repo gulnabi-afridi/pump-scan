@@ -3,7 +3,10 @@ import ComponentWrapper from '../common/ComponentWrapper';
 
 const Features: React.FC = () => {
   return (
-    <div className='w-full relative pt-20'>
+    <div
+      id='#features'
+      className="w-full bg-cover  bg-no-repeat bg-[url('/assets/featureBg.png')] relative py-20"
+    >
       <ComponentWrapper>
         <div className='flex gap-4 flex-col'>
           <p className='text-[14px] font-gesistMedium text-green-1'>
@@ -51,7 +54,7 @@ const Features: React.FC = () => {
       {/*  */}
       <img
         src='/assets/features.png'
-        className='w-full absolute lg:block hidden top-[30%] right-0 max-w-[500px] clg:max-w-[600px] xl:max-w-[700px] h-[520px]'
+        className='w-full absolute lg:block hidden top-[30%] right-0 max-w-[500px] clg:max-w-[600px] xl:max-w-[700px] h-[580px]'
         alt=''
       />
     </div>

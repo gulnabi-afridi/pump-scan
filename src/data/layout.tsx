@@ -2,23 +2,23 @@ export const layoutData = {
   navData: [
     {
       name: 'Home',
-      path: '/',
+      path: '#home',
     },
     {
       name: 'Features',
-      path: '/features',
+      path: '#features',
     },
     {
       name: 'Tokenomics',
-      path: '/tokenomics',
+      path: '#tokenomics',
     },
     {
       name: 'Roadmap',
-      path: '/roadmap',
+      path: '#roadmap',
     },
     {
       name: 'FAQs',
-      path: '/faqs',
+      path: '#faqs',
     },
   ],
   footerData: [

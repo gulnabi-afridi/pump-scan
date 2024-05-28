@@ -8,6 +8,7 @@ export default {
         gesistThin: ['gesist-thin', 'sans-serif'],
         gesistMedium: ['gesist-medium', 'serif'],
         gesistRegular: ['gesist-regular', 'serif'],
+        gesistMono: ['gesistMono', 'serif'],
         gesistBold: ['gesist-bold', 'serif'],
         gesistSemibold: ['gesist-semibold', 'serif'],
         gesistBlack: ['gesist-black', 'serif'],

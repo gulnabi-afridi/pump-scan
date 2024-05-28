@@ -36,6 +36,11 @@ body {
   src: url('/fonts/Geist-Black-BF6569491cec591.otf');
 }
 
+@font-face {
+  font-family: 'gesistMono';
+  src: url('/fonts/GeistMono-Regular-BF65694d05471c0.otf');
+}
+
 /* =======> drawer style */
 .drawer {
   width: 50% !important;
@@ -50,4 +55,17 @@ body {
   .drawer {
     width: 100% !important;
   }
+}
+
+.heroShadow {
+  box-shadow: 0px 1px 2px 0px #1018280d;
+}
+
+.borderGradient {
+  background: #060b12;
+}
+
+.gradient-wrapper {
+  position: relative;
+  background: linear-gradient(324.85deg, #435e78 73.16%, #19f490 130.49%);
 }
