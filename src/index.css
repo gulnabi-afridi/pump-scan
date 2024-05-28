@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', 'sans-serif';
+}
+
+@font-face {
+  font-family: 'gesist-thin';
+  src: url('/fonts/Geist-Thin-BF6569491e12aff.otf');
+}
+
+@font-face {
+  font-family: 'gesist-regular';
+  src: url('/fonts/Geist-Regular-BF6569491e3eff1.otf');
+}
+
+@font-face {
+  font-family: 'gesist-medium';
+  src: url('/fonts/Geist-Medium-BF6569491e1c281.otf');
+}
+
+@font-face {
+  font-family: 'gesist-semibold';
+  src: url('/fonts/Geist-SemiBold-BF6569491e8c368.otf');
+}
+
+@font-face {
+  font-family: 'gesist-bold';
+  src: url('/fonts/Geist-Bold-BF6569491da5a14.otf');
+}
+
+@font-face {
+  font-family: 'gesist-black';
+  src: url('/fonts/Geist-Black-BF6569491cec591.otf');
+}
