@@ -4,6 +4,7 @@ import { RxCross2 } from 'react-icons/rx';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import Drawer from 'react-modern-drawer';
 import 'react-modern-drawer/dist/index.css';
+import { layoutData } from '../../data/layout';
 
 const Navibar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +20,7 @@ const Navibar: React.FC = () => {
         <div className='flex justify-center items-center gap-6 lg:gap-10'>
           <img src='/assets/logo.png' className='w-[35px] h-[35px]' alt='' />
           <div className=' justify-center items-center cmd:flex hidden gap-6 lg:gap-10'>
-            {NavData.map((item, index) => {
+            {layoutData.navData.map((item, index) => {
               return (
                 <a
                   href={item.path}
@@ -67,7 +68,7 @@ const Navibar: React.FC = () => {
               </div>
               {/* ========> sections links */}
               <div className='flex flex-col justify-center items-center gap-6 mt-12'>
-                {NavData.map((navi, index) => {
+                {layoutData.navData.map((navi, index) => {
                   return (
                     <a
                       href={navi.path}
@@ -98,28 +99,5 @@ const Navibar: React.FC = () => {
     </ComponentWrapper>
   );
 };
-
-const NavData = [
-  {
-    name: 'Home',
-    path: '/',
-  },
-  {
-    name: 'Features',
-    path: '/features',
-  },
-  {
-    name: 'Tokenomics',
-    path: '/tokenomics',
-  },
-  {
-    name: 'Roadmap',
-    path: '/roadmap',
-  },
-  {
-    name: 'FAQs',
-    path: '/faqs',
-  },
-];
 
 export default Navibar;
