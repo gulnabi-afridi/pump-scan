@@ -3,6 +3,7 @@ import HeroSection from '../components/Home/HeroSection';
 import Features from '../components/Home/Features';
 import Tokenomics from '../components/Home/Tokenomics';
 import Roadmap from '../components/Home/Roadmap';
+import Faq from '../components/Home/Faq';
 
 const Home: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const Home: React.FC = () => {
       <Features />
       <Tokenomics />
       <Roadmap />
+      <Faq />
     </div>
   );
 };
